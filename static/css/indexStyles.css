@@ -1,0 +1,87 @@
+body{
+    background-color: #FEFBF3;
+}
+.container {
+    position: relative;
+    height: 500px;
+}
+
+.manualImagen {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 20%;
+    
+}
+
+
+.imgManual {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+#cabecera {
+    top: 0%;
+    margin-top: 5%;
+    margin-right: 25%;
+    clear: right;
+    float: right;
+    width: 550px;
+    text-align: center;
+    height: 150px;
+    border-radius: 36px;
+    font-size: x-large;
+    font-family: "Segoe UI";
+    background-color: #79B4B7;
+    color: #F8F0DF;
+}
+.cabeceraHTML{
+    top: 0%;
+    margin-top: 2%;
+    margin-right: 25%;
+    clear: right;
+    float: right;
+    width: 550px;
+
+    height: 150px;
+    border-radius: 36px;
+    font-size: xx-large;
+    font-family: "Segoe UI";
+    background-color: #79B4B7;
+   
+}
+.cabeceraHTML a{
+    text-align: center;
+    display: table-cell;
+    padding: 3.2rem 10rem;
+    vertical-align: middle;
+    text-decoration: underline;
+    color: #F8F0DF;
+}
+.cabeceraCSS{
+    top: 0%;
+    margin-top: 2%;
+    margin-right: 25%;
+    clear: right;
+    float: right;
+    width: 550px;
+
+    height: 150px;
+    border-radius: 36px;
+    font-size: xx-large;
+    font-family: "Segoe UI";
+    background-color: #79B4B7;
+}
+.cabeceraCSS a{
+    text-align: center;
+    display: table-cell;
+    padding: 3.2rem 10rem;
+    vertical-align: middle;
+    text-decoration: underline;
+
+    color: #F8F0DF;
+}

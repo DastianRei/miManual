@@ -1,0 +1,87 @@
+#copyright {
+    text-align: center;
+}
+
+.cabeceraRecursos {
+    text-align: center;
+}
+
+.cabeceraElementos {
+    text-align: center;
+    border-radius: 20px;
+}
+
+#tablaElementos {
+    margin: 0 auto;
+
+}
+
+.tablaRecursos {
+    margin: 0 auto;
+
+}
+
+.cabezaTablaRecursos {
+    background-color: #B1D7B4;
+}
+
+.cabezaTablaElementos {
+    background-color: #B1D7B4;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    /*text-align: center;*/
+    font-family: 'Merriweather', serif;
+    background-color: #F7F6DC;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #7FB77E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #7FB77E 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 50px auto;
+}
+
+a {
+    color: #FF7F3F;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.textoMDN {
+    text-align: center;
+}
+
+
+.textoHtmlStandard {
+    text-align: center;
+}
