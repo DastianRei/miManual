@@ -1,0 +1,54 @@
+body{
+    background-color: #F7ECDE;
+    font-family: "Segoe UI";
+}
+p{
+    font-size: x-large;
+}
+p b{
+    color: #9ED2C6;
+}
+h1{
+    color: #54BAB9;
+}
+#casa{
+    margin: 0;
+    top: 0%;
+    position: absolute;
+    margin-top:2%;
+}
+.selecUniversal{
+    margin: 0;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 600px;
+}
+.selecTipo{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+}
+
+
+.selecClase{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+}
+
+
+.selecId{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+}
+
+.attr{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+}

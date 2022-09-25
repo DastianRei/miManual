@@ -85,3 +85,9 @@ a {
 .textoHtmlStandard {
     text-align: center;
 }
+#casa{
+    margin: 0;
+    top: 0%;
+    position: absolute;
+    margin-top:2%;
+}

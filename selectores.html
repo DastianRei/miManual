@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/selectoresStyles.css">
+    <title>Selectores</title>
+</head>
+
+<body>
+    <a href="manualCss.html"><img id="casa" src="static/files/home-removebg-preview.png" width="100px" height="100px"></a>
+    <div class="selecUniversal">
+        <h1>Selector Universal</h1>
+        <p>Selecciona todos los elementos.
+            <b>Ejm:
+                *{ declaraciones; }</b></p>
+        
+    </div>
+    <div class="selecTipo">
+        <h1>Selector de Tipo</h1>
+        <p>Permite seleccionar elementos usando el nombre del elemento.
+            <b>
+                Ejm:
+                elemento{ declaraciones; }
+            </b>
+        </p>
+    </div>
+   
+    <div class="selecClase">
+        <h1>Selector de clase (.foo)</h1>
+        <p>
+            Permite seleccionar elementos en función de los valores del atributo class de los elementos. Para que los elementos sean seleccionados, su atributo class debe incluir un valor que coincida con el valor del selector.
+            <b>Ejm:< p class=”foo bar”> ¡HOLA MUNDO! < /p> < p class=”foo baz” > ¡ADIÓS MUNDO! < /p> .foo{ declaraciones; }</b>
+        </p>
+    </div>
+    
+    <div class="selecId">
+        <h1>Selector de ID (#foo)</h1>
+        <p>Permite seleccionar un elemento en función del valor del atributo ID del elemento. Para que el elemento sea seleccionado, su atributo id debe coincidir exactamente con el valor dado en el selector.
+            <b> Ejm:#foo{ declaraciones; }</b>
+        </p>
+    </div>
+    <div class="attr">
+        <h1>Selector de atributo (a[foo])</h1>
+        <p>Selecciona elementos que tengan un atributo con el nombre attr.
+            <b>Ejm: selector[attr]{ declaraciones; }</b>
+        </p>
+    </div>
+</body>
+
+</html>

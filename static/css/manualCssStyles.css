@@ -1,0 +1,93 @@
+body{
+    
+    font-family: "Segoe UI";
+    background-color: #F0EBE3;
+}
+.paletaColores {
+    padding: 10px;
+    margin: 10px;
+    margin-right: 300px;
+    margin-top: 55px;
+    border: 2px solid black;
+    float: right;
+    width: 250px;
+}
+.selectorCss{
+    padding: 10px;
+    position: absolute;
+    margin-left: 71%; 
+    border: 2px solid black;
+    float: right;
+    width: 250px;
+    margin-top: 18%;
+    
+}
+.colores p
+{
+   margin-left: 50%;
+   margin-top: 60px;
+   position: absolute;
+   color: #7D9D9C;
+   width: 400px;
+}
+.colores a{
+    margin-left: 50%;
+    margin-top: 310px;
+    position: absolute;
+    color: #576F72;
+}
+
+#link{
+    margin-left: 50%;
+    margin-top: 310px;
+    margin-left: 57%;
+}
+.colores h1{
+    margin-left: 50%;
+    margin-top: 25px;
+    position: absolute;
+    color: #576F72;
+}
+
+.selectores h1{
+    margin-left: 50%;
+    margin-top: 390px;
+    position: absolute;
+    color: #576F72;
+}
+.selectores p{
+    margin-left: 50%;
+    margin-top: 430px;
+    position: absolute;
+    color: #7D9D9C;
+    width: 400px;
+}
+.selectores a{
+    margin-left: 55%;
+    margin-top: 560px;
+    position: absolute;
+    text-align: center;
+    color: #576F72;
+
+}
+table{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 190px;
+   border-color: #7D9D9C ;
+   
+    width: 500px;
+}
+table th{
+    color: #576F72;
+}
+table td{
+    color:#7D9D9C;
+}
+#casa{
+    margin: 0;
+    top: 0%;
+    position: absolute;
+    margin-top:2%;
+    margin-left: 5%;
+}

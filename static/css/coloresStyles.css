@@ -1,0 +1,74 @@
+body{
+    background-color: #EEF2E6;
+    font-family: "Segoe UI";
+}
+p{
+    font-size: x-large;
+}
+p b{
+    color: #3D8361;
+}
+h1{
+    color: #1C6758;
+}
+#casa{
+    margin: 0;
+    top: 0%;
+    position: absolute;
+    margin-top:2%;
+}
+.rgb{
+    margin: 0;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 400px;
+}
+.rgbImagen{
+    margin-left: 25%;
+    margin-top: -10%;
+    position: absolute;
+}
+.rgba{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 400px;
+}
+.rgbaImagen{
+    width:50%;
+    position:absolute;
+    margin-left: 55%;
+    margin-top: -9%;
+}
+.rgbaImagen img{
+    height: 200px;
+}
+.hexadecimal{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 400px;
+}
+.hexaImagen
+{
+    width:50%;
+    position:absolute;
+    margin-left: 55%;
+    margin-top: -9%;
+}
+.hexaImagen img{
+    height: 200px;
+}
+.hsl{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 30%;
+    width: 400px;
+}
+.hslImagen
+{
+    width:50%;
+    position:absolute;
+    margin-left: 55%;
+    margin-top: -9%;
+}
