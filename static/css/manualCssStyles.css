@@ -5,9 +5,9 @@ body{
 }
 .paletaColores {
     padding: 10px;
-    margin: 10px;
-    margin-right: 300px;
-    margin-top: 55px;
+    margin: 1%;
+    margin-right: 15%;
+    margin-top: 3%;
     border: 2px solid black;
     float: right;
     width: 250px;
@@ -25,46 +25,46 @@ body{
 .colores p
 {
    margin-left: 50%;
-   margin-top: 60px;
+   margin-top: 3%;
    position: absolute;
    color: #7D9D9C;
    width: 400px;
 }
 .colores a{
     margin-left: 50%;
-    margin-top: 310px;
+    margin-top: 16%;
     position: absolute;
     color: #576F72;
 }
 
 #link{
     margin-left: 50%;
-    margin-top: 310px;
+    margin-top: 16%;
     margin-left: 57%;
 }
 .colores h1{
     margin-left: 50%;
-    margin-top: 25px;
+    margin-top: 1%;
     position: absolute;
     color: #576F72;
 }
 
 .selectores h1{
     margin-left: 50%;
-    margin-top: 390px;
+    margin-top: 18%;
     position: absolute;
     color: #576F72;
 }
 .selectores p{
     margin-left: 50%;
-    margin-top: 430px;
+    margin-top: 21%;
     position: absolute;
     color: #7D9D9C;
     width: 400px;
 }
 .selectores a{
     margin-left: 55%;
-    margin-top: 560px;
+    margin-top: 28%;
     position: absolute;
     text-align: center;
     color: #576F72;
@@ -72,8 +72,8 @@ body{
 }
 table{
     position: absolute;
-    margin-left: 20%;
-    margin-top: 190px;
+    margin-left: 10%;
+    margin-top: 10%;
    border-color: #7D9D9C ;
    
     width: 500px;
