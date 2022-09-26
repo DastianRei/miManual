@@ -5,8 +5,9 @@ body{
 }
 .paletaColores {
     padding: 10px;
+    position: absolute;
     margin: 1%;
-    margin-right: 15%;
+    margin-left: 77%;
     margin-top: 3%;
     border: 2px solid black;
     float: right;
@@ -15,11 +16,11 @@ body{
 .selectorCss{
     padding: 10px;
     position: absolute;
-    margin-left: 71%; 
+    margin-left: 77%; 
     border: 2px solid black;
     float: right;
     width: 250px;
-    margin-top: 18%;
+    margin-top: 21%;
     
 }
 .colores p
@@ -32,15 +33,15 @@ body{
 }
 .colores a{
     margin-left: 50%;
-    margin-top: 16%;
+    margin-top: 20%;
     position: absolute;
     color: #576F72;
 }
 
 #link{
-    margin-left: 50%;
-    margin-top: 16%;
-    margin-left: 57%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 60%;
 }
 .colores h1{
     margin-left: 50%;
@@ -51,20 +52,20 @@ body{
 
 .selectores h1{
     margin-left: 50%;
-    margin-top: 18%;
+    margin-top: 23%;
     position: absolute;
     color: #576F72;
 }
 .selectores p{
     margin-left: 50%;
-    margin-top: 21%;
+    margin-top: 26%;
     position: absolute;
     color: #7D9D9C;
     width: 400px;
 }
 .selectores a{
     margin-left: 55%;
-    margin-top: 28%;
+    margin-top: 35%;
     position: absolute;
     text-align: center;
     color: #576F72;

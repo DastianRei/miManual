@@ -7,13 +7,14 @@ body{
 }
 
 .manualImagen {
+    display: flex;
     width: 300px;
     height: 200px;
     position: absolute;
     top: 50%;
-    margin-top: -5%;
-    margin-left: 10%;
-    display: flex;
+    margin-top: -10%;
+    margin-left: 5%;
+    
 }
 
 
