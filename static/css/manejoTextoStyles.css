@@ -9,19 +9,24 @@
     width: 50%;
     height: 25% ;
     background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container2{
  
     width: 50%;
     height: 50%;
     background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container3{
     width: 50%;
     height: 75%;
     background-color:green ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 .container4{
     width: 50%;
     background-color: yellow;
+    font-family: 'Courier New', Courier, monospace
 }
