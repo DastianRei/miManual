@@ -100,3 +100,17 @@ body {
 .cabeceraTexto a:hover{
     background-color: #256D85;
 }
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 36px;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: flex-end;
+    align-items: center;
+    text-align: center;
+    color: #7895B2;
+}
