@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/flexboxStyles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <a href="manualCss.html"><img id="casa" src="static/files/home-removebg-preview.png" width="70px"
+        height="70px"></a>
+    <h3>ESTABLECER LA DIRECCIÓN DEL EJE PRINCIPAL DEL CONTENEDOR FLEXIBLE</h3>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>DIRECCION DEL EJE</th>
+                <th>EJEMPLO HTML</th>
+                <th>EJEMPLO CSS</th>
+                <th>DEMOSTRACION</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EJE PRINCIPAL DE IZQUIERDA A DERECHA</td>
+                <td><div class="contenedor">
+                    <div>E1</div>
+                    <div>E2</div>
+                    <div>E3</div>
+                </div></td>
+                <td>.contenedor{
+                    display: flex;
+                    flex-direction: row; 
+                }
+                </td>
+                <td>
+                    <img src="static/files/primera.jpg" alt=""height="200" width="500">
+                </td>
+            </tr>
+            <tr>
+                <td>EJE PRINCIPAL DE DERECHA A IZQUIERDA</td>
+                <td><div class="contenedor">
+                    <div>E1</div>
+                    <div>E2</div>
+                    <div>E3</div>
+                </div>
+                </td>
+                <td>.contenedor{
+                    display: flex;
+                    flex-direction: row-reverse; 
+                }
+                </td>
+                <td><img src="static/files/segunda.jpg" alt=""height="200" width="500"></td>
+            </tr>
+            <tr>
+                <td>EJE PRINCIPAL DE ARRIBA A ABAJO</td>
+                <td><div class="contenedor">
+                    <div>E1</div>
+                    <div>E2</div>
+                </div>
+                </td>
+                <td>.contenedor{
+                    display: flex;
+                    flex-direction: column; 
+                }
+                </td>
+                <td><img src="static/files/tercera.jpg" alt=""height="200" width="500"></td>
+            </tr>
+            <tr>
+                <td>EJE PRINCIPAL DE ABAJO A ARRIBA</td>
+                <td><div class="contenedor">
+                    <div>E1</div>
+                    <div>E2</div>
+                </div>
+                </td>
+                <td>.contenedor{
+                    display: flex;
+                    flex-direction: column-reverse; 
+                }
+                </td>
+                <td><img src="static/files/cuarta.jpg" alt=""height="200" width="500"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>ESTABLECER LA DIRECCION DE SU EJE TRANSVERSAL PARA UNA SOLA LINEA</h3>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>DIRECCION DEL EJE</th>
+                <th>EJEMPLO HTML</th>
+                <th>EJEMPLO CSS</th>
+                <th>DEMOSTRACION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EJE TRANSVERSAL DE IZQUIERDA A DERECHA</td>
+                <td><div class="contenedor-flexible-4">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                </div>
+                </td>
+                <td>
+                    .contenedor-flexible-4{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                    }
+                </td>
+                <td><img src="static/files/quinta.jpg" alt=""height="100" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE DERECHA A IZQUIERDA</td>
+                <td><div class="contenedor-flexible-2">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                </div>
+                </td>
+                <td>.contenedor-flexible-2{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    flex-wrap: nowrap;
+                }
+                </td>
+                <td><img src="static/files/sexta.jpg" alt=""height="100" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE ARRIBA A ABAJO</td>
+                <td><div class="contenedor-flexible-3">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                </div>
+                </td>
+                <td>.contenedor-flexible-3{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+                </td>
+                <td><img src="static/files/septima.jpg" alt=""height="300" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE ABAJO A ARRIBA</td>
+                <td><div class="contenedor-flexible-4">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                </div>
+                </td>
+                <td>.contenedor-flexible-4{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    flex-wrap: nowrap;
+                }
+                </td>
+                <td><img src="static/files/ocatava.jpg" alt=""height="300" width="600"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>ESTABLECER LA DIRECCION DE SU EJE TRANSVERSAL PARA VARIAS LINEAS</h3>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>DIRECCION DEL EJE</th>
+                <th>EJEMPLO HTML</th>
+                <th>EJEMPLO CSS</th>
+                <th>DEMOSTRACION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EJE TRANSVERSAL DE IZQUIERDA A DERECHA</td>
+                <td><div class="contenedor-flexible-5">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                    <div class="elemento-flexible">Item 6</div>
+                    <div class="elemento-flexible">Item 7</div>
+                    <div class="elemento-flexible">Item 8</div>        
+                    <div class="elemento-flexible">Item 9</div>        
+                    <div class="elemento-flexible">Item 10</div>        
+                    <div class="elemento-flexible">Item 11</div>        
+                </div>
+                </td>
+                <td>
+                    .contenedor-flexible-5{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                </td>
+                <td><img src="static/files/novena.jpg" alt=""height="300" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE DERECHA A IZQUIERDA</td>
+                <td><div class="contenedor-flexible-4">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                    <div class="elemento-flexible">Item 6</div>
+                    <div class="elemento-flexible">Item 7</div>
+                    <div class="elemento-flexible">Item 8</div>        
+                    <div class="elemento-flexible">Item 9</div>        
+                    <div class="elemento-flexible">Item 10</div>        
+                    <div class="elemento-flexible">Item 11</div>        
+                </div>
+                </td>
+                <td>.contenedor-flexible-4{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    flex-wrap: wrap;
+                }
+                </td>
+                <td><img src="static/files/decima.jpg" alt=""height="300" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE ARRIBA A ABAJO</td>
+                <td><div class="contenedor-flexible-7">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                </div>
+                </td>
+                <td>.contenedor-flexible-7{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+                </td>
+                <td><img src="static/files/undecima.jpg" alt=""height="300" width="600"></td>
+            </tr>
+            <tr>
+                <td>EJE TRANSVERSAL DE ABAJO A ARRIBA</td>
+                <td><div class="contenedor-flexible-8">
+                    <div class="elemento-flexible">Item 1</div>
+                    <div class="elemento-flexible">Item 2</div>
+                    <div class="elemento-flexible">Item 3</div>        
+                    <div class="elemento-flexible">Item 4</div>        
+                    <div class="elemento-flexible">Item 5</div>        
+                </div>
+                </td>
+                <td> .contenedor-flexible-8{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+                }
+                </td>
+                <td><img src="static/files/duodecima.jpg" alt=""height="300" width="600"></td>
+            </tr>
+        </tbody>
+    </table>                 
+</body>
+</html>
